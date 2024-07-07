@@ -32,5 +32,26 @@ To run a specific test file:
    npx cypress run --spec "cypress/e2e/login.cy.js"
    ```
 
+### Running tests witin a Docker container
+To build test container run:
+   ```
+   make build
+   ```
+
+To run tests within a container:
+   ```
+   make run
+   ```
+
+To build and run tests:
+   ```
+   make all
+   ```
+
+To remove docker image:
+   ```
+   make clean
+   ```
+
 ### License
 This project is licensed under the MIT License. See the LICENSE file for details.
