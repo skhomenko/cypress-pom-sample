@@ -1,4 +1,9 @@
 {
-    "invalidUserText": "Your username is invalid!", 
-    "invalidPasswordText": "Your password is invalid!"
+    "bannerText": {
+        "invalidUser": "Your username is invalid!", 
+        "invalidPassword": "Your password is invalid!",
+        "loggedOut": "You logged out of the secure area!"
+    },
+    "headerText": "Login Page",
+    "bodyText": "This is where you can log into the secure area. Enter tomsmith for the username and SuperSecretPassword! for the password. If the information is wrong you should see error messages."
 }
