@@ -1,4 +1,9 @@
 class SecurePage {
+
+    isOpen() {
+        cy.url().should('include', '/secure');
+    }
+
     getFlashMessage() {
         return cy.get('.flash.success');
     }
